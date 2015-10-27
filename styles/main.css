@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  padding: 50px; }
+
+.wrapper {
+  margin: 0 auto;
+  width: 500px; }
+  .wrapper button {
+    width: 25%;
+    color: #FEFEFE;
+    font-size: 18px;
+    margin: 0;
+    padding: 15px;
+    background: #68B25B;
+    display: block;
+    float: left;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid #81BF76;
+    border-bottom: 1px solid #81BF76; }
+  .wrapper .output {
+    width: 75%;
+    padding: 15px; }
+  .wrapper .operator {
+    background: #85C07B;
+    color: #000;
+    border: none;
+    outline: none;
+    display: block; }
+  .wrapper .row {
+    width: 100%;
+    float: left; }
+  .wrapper .row::after {
+    display: block;
+    clear: both;
+    content: ""; }
+  .wrapper .clear, .wrapper .output, .wrapper .operator, .wrapper .number, .wrapper .decimal {
+    height: 80px; }
